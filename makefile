@@ -11,6 +11,6 @@ README.md:
 	Line=$$(wc -l guessinggame.sh | egrep -o "[0-9]+"); \
 	echo "My guessinggame.sh contains $$Line lines." >> README.md
 	echo "" >> README.md
-	echo "[My Github page](https://Red-Panda_JPN.github.io/AboutMe/)" >> README.md
+	echo "[My Github page](https://Red-Panda-JPN.github.io/AboutMe/)" >> README.md
 clean:
 	rm -i README.md
